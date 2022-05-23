@@ -1,0 +1,57 @@
+- Giới thiệu linq - c#
+
+LINQ (Language Integrated Query) - ngôn ngữ truy vấn tích hợp - nó tích hợp cú pháp truy vấn (gần giống các câu lệnh SQL) vào bên trong ngôn ngữ lập trình C#, cho nó khả năng truy cập các nguồn dữ liệu khác nhau (SQL Db, XML, List ...) với cùng cú pháp.
+
+LINQ hoạt động trên những kiểu tập hợp có khả năng duyệt qua nó. Để sử dụng LINQ thì nạp hai thư viện Generic và Linq:
+		(h1)
+
+- Tại sao lại là LinQ - Ưu điểm
+
++) Ngôn ngữ quen thuộc: Nhà phát triển không phải học nhiều loại ngôn ngữ truy vấn mới cho tưng loại nguồn dữ liệu hoặc định dạng dữ liệu khác nhau.
+
++) Viết ít code: LinQ nó làm giảm số lượng mã được viết so với cách tiếp cần truyền thống hơn.
+
++) Code dễ đọc: LinQ làm cho mã dễ đọc hơn để các nhà phát triển khác có thể dễ dàng hiểu và bảo trì nó.
+
++) Các truy vấn chuẩn hóa nhiều nguồn dữ liệu: Có thể sử dụng cùng một cú pháp LinQ để truy vấn nhiều nguồn dẽ liệu.
+
++) An toàn khi biên dịch của các truy vấn: Nó cung cấp kiểm tra kiểu của các đối tượng tại thời gian biên dịch.
+
++) Định hình dữ liệu: Bạn có thể truy xuất dữ liệu theo các hình dạng khác nhau.
+
+- Linq Hoạt động NTN
+
+Để sử dụng LINQ cần có ba thành phần: nguồn dữ liệu (data source), truy vấn (query), lời gọi thực hiện truy vấn (query execution).
+
+		(h2)
+
+- Các kiểu Linq: SQL, object, DataSets, entity, XML
+
++ Linq to SQL: phục vụ cho SQL Server.
+
++ Linq to Objects: Sử dụng với các Collections, như tìm kiếm, ... theo phong cách như truy vấn cơ sở dữ liệu.
+
++ Linq to DataSets: Sử dụng kết hợp với ADO.NET.
+
++ Linq to Entities: phục vụ cho nhiều loại hệ quản trị cơ sở dữ liệu hơn.
+
++ Linq to XML: phục vụ cho truy vấn XML.
+
+
+
+
+- Các truy vấn trong Linq
+
+Có 2 dạng truy vấn trong Linq: cú pháp Truy vấn (Query syntax) --- Cú pháp phương thức (Method syntax)
+
+		(h.Phân loại phương thức truy vấn)
+
++ 1 số ví du: về cú pháp phương thức
+
+- Biểu thức lambda
+
+
+
+
+
+
