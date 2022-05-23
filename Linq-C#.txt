@@ -50,6 +50,10 @@ Có 2 dạng truy vấn trong Linq: cú pháp Truy vấn (Query syntax) --- Cú 
 
 - Biểu thức lambda
 
+Biểu thức lambda hiểu đơn giản là phương thức ẩn danh bằng cách sử dụng một số cú pháp đặc biệt.
+
+
+
 
 
 
