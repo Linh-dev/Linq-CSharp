@@ -23,7 +23,7 @@ LINQ hoạt động trên những kiểu tập hợp có khả năng duyệt qua
 
 Để sử dụng LINQ cần có ba thành phần: nguồn dữ liệu (data source), truy vấn (query), lời gọi thực hiện truy vấn (query execution).
 
-		(h2)
+		(h3)
 
 - Các kiểu Linq: SQL, object, DataSets, entity, XML
 
@@ -37,7 +37,7 @@ LINQ hoạt động trên những kiểu tập hợp có khả năng duyệt qua
 
 + Linq to XML: phục vụ cho truy vấn XML.
 
-
+		(h2)
 
 
 - Các truy vấn trong Linq
